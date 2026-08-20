@@ -1,0 +1,13 @@
+scan 'customer_activity'
+
+get 'customer_activity', 'C001'
+
+get 'customer_activity', 'C001', 'profile'
+
+get 'customer_activity', 'C001', 'activity'
+
+scan 'customer_activity', {FILTER => "SingleColumnValueFilter('activity','type',=,'binary:PURCHASE')"}
+
+scan 'customer_activity', {FILTER => "SingleColumnValueFilter('activity','type',=,'binary:VIEW')"}
+
+scan 'customer_activity', {FILTER => "SingleColumnValueFilter('activity','timestamp',>=,'binary:2026-08-20 10:20:00')"}

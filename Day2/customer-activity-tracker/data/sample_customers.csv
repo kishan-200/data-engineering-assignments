@@ -1,0 +1,6 @@
+customer_id,name,city,product,activity_type,timestamp
+C001,Rahul,Bangalore,iPhone 15,PURCHASE,2026-08-20 10:15:00
+C002,Priya,Hyderabad,Samsung Galaxy S24,VIEW,2026-08-20 10:20:00
+C003,Arjun,Mumbai,Dell Inspiron 15,CLICK,2026-08-20 10:25:00
+C004,Sneha,Chennai,Sony WH-1000XM5,PURCHASE,2026-08-20 10:30:00
+C005,Kiran,Delhi,MacBook Air,VIEW,2026-08-20 10:35:00

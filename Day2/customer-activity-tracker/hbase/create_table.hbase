@@ -1,0 +1,3 @@
+create 'customer_activity', 'profile', 'activity'
+describe 'customer_activity'
+list
