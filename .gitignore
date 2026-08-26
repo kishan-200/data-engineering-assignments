@@ -7,4 +7,5 @@ venv/
 .venv/
 
 # Environment variables / secrets
-.env
+.envderby.log
+metastore_db/
