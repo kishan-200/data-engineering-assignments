@@ -1,0 +1,19 @@
+# SBT / Scala build files
+target/
+project/target/
+.bsp/
+
+# Streaming checkpoint data
+data/streaming/checkpoint/
+
+# Temporary streaming input generated during execution
+data/streaming/input/
+
+# Temporary DAG output
+dag_output.txt
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
+data/output/

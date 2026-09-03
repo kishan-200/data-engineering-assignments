@@ -1,0 +1,8 @@
+patientId,name,ward,age
+P001,Patient_001,Cardiology,45
+P002,Patient_002,Emergency,62
+P003,Patient_003,General,38
+P004,Patient_004,Cardiology,51
+P005,Patient_005,General,29
+P006,Patient_006,Emergency,67
+P007,Patient_007,Emergency,54
