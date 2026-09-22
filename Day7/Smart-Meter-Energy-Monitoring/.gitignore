@@ -1,0 +1,9 @@
+target/
+project/target/
+project/project/
+metastore_db/
+.ijwb/
+*.log
+*.tmp
+checkpoint/
+checkpoints/
