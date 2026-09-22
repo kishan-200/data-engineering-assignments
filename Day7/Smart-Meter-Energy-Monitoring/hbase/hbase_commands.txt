@@ -1,0 +1,70 @@
+Smart Meter Energy Monitoring - HBase Design
+=============================================
+
+Purpose:
+HBase is designed for storing the latest/current state of each smart meter
+for fast real-time lookup.
+
+Table:
+smart_meter_current
+
+Row Key:
+meter_id
+
+Column Family:
+reading
+
+Columns:
+reading:customer_id
+reading:units
+reading:timestamp
+reading:status
+
+
+HBase Commands
+==============
+
+Start HBase:
+
+start-hbase.sh
+
+
+Open HBase shell:
+
+hbase shell
+
+
+Create table:
+
+create 'smart_meter_current', 'reading'
+
+
+Insert current meter state example:
+
+put 'smart_meter_current', 'M1001', 'reading:customer_id', 'C101'
+put 'smart_meter_current', 'M1001', 'reading:units', '21.17'
+put 'smart_meter_current', 'M1001', 'reading:timestamp', '2026-09-22 16:49:52'
+put 'smart_meter_current', 'M1001', 'reading:status', 'ABNORMAL'
+
+
+View one meter:
+
+get 'smart_meter_current', 'M1001'
+
+
+Scan the table:
+
+scan 'smart_meter_current'
+
+
+Describe the table:
+
+describe 'smart_meter_current'
+
+
+Important:
+The HBase component and schema were designed for the project.
+During final local testing, HBase metadata/RegionServer initialization
+prevented a successful final scan from being retained as evidence.
+Therefore the project documentation should not claim a verified live
+HBase scan.
