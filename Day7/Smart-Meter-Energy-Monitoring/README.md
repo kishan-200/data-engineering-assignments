@@ -1,4 +1,4 @@
-# Smart Meter Energy Monitoring
+# Smart Meter Energy Monitoring using Apache Kafka
 
 ## 1. Project Overview
 
