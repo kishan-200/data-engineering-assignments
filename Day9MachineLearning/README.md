@@ -109,6 +109,3 @@ Day9MachineLearning/
 │   └── Wholesale customers data.csv
 │
 ├── ML_Engineering_Lab_Series.ipynb
-│
-└── output/
-    └── screenshots/
