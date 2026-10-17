@@ -104,3 +104,32 @@ Thumbs.db
 /supplier_products.java
 /inventory.java
 /purchase_orders.java
+
+# ============================================================
+# Project-specific generated/runtime artifacts
+# ============================================================
+
+# Local Airflow configuration
+airflow/airflow.cfg
+
+# Empty/obsolete DAG draft
+airflow/dags/omnichannel_replenishment.py
+
+# Generated EMR local output
+aws_emr/monthly_top100/
+
+# Generated GenAI output
+genai/output/
+
+# Spark restart validation runtime state
+validation/spark_restart/checkpoint/
+validation/spark_restart/output/
+
+# Older superseded data-generation scripts
+data_generator/generate_purchase_orders.py
+data_generator/generate_sales.py
+data_generator/validate_purchase_orders.py
+data_generator/validate_sales.py
+
+# Accidental AWS CLI output file
+/iam get-role*
