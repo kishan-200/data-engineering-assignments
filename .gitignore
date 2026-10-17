@@ -1,0 +1,106 @@
+# ============================================================
+# Python
+# ============================================================
+.venv/
+.airflow-venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ============================================================
+# Secrets / Credentials
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*password*
+
+# ============================================================
+# Airflow Runtime
+# ============================================================
+airflow/airflow.db
+airflow/airflow.db-*
+airflow/logs/
+airflow/simple_auth_manager_passwords.json.generated
+airflow/webserver_config.py
+airflow/standalone_admin_password.txt
+
+# ============================================================
+# Hive / Derby Runtime
+# ============================================================
+metastore_db/
+metastore_db_*/
+derby.log
+
+# ============================================================
+# Logs / Runtime Files
+# ============================================================
+logs/
+*.log
+*.pid
+*.out
+*.err
+
+# ============================================================
+# Generated / Large Data
+# ============================================================
+data/generated/
+data/processed/
+data/external/
+data_lake/
+
+# Power BI generated/exported datasets
+powerbi/export/
+powerbi/data/
+
+# Databricks exported data files
+databricks_export/*.parquet
+databricks_export/*.csv
+
+# ============================================================
+# Spark / Streaming Runtime
+# ============================================================
+checkpoints/
+checkpoint/
+spark-warehouse/
+.sparkStaging/
+**/_temporary/
+**/_SUCCESS
+
+# ============================================================
+# Jupyter / IDE / OS
+# ============================================================
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ============================================================
+# Local database / temporary artifacts
+# ============================================================
+*.db
+*.db-shm
+*.db-wal
+*.lck
+
+# Accidental / temporary root files
+/100000
+/nano
+/iam get-role \
+
+# Sqoop-generated Java classes
+/products.java
+/stores.java
+/suppliers.java
+/supplier_products.java
+/inventory.java
+/purchase_orders.java
