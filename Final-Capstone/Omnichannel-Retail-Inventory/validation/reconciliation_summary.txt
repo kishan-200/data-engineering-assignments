@@ -1,0 +1,39 @@
+============================================================
+OMNICHANNEL RETAIL - BRONZE / SILVER / GOLD RECONCILIATION
+============================================================
+
+POS REPLAY INPUT
+Unique POS events              : 100,000
+Injected retry events          :   1,000
+Expected Bronze total          : 101,000
+
+DATABRICKS BRONZE
+Bronze POS rows                : 101,000
+
+DATABRICKS SILVER
+Silver deduplicated POS rows   : 100,000
+
+DEDUPLICATION VALIDATION
+Retries removed                :   1,000
+Expected retries removed       :   1,000
+Retry deduplication accuracy   : 100%
+Result                         : PASS
+
+DATABRICKS GOLD
+Gold replenishment rows        : 26,545
+
+RECONCILIATION
+Input + retries                : 101,000
+Bronze captured                : 101,000
+Bronze data loss               : 0
+
+Bronze duplicates              : 1,000
+Silver duplicates removed      : 1,000
+Silver unique events           : 100,000
+
+STATUS
+Bronze ingestion               : PASS
+Silver retry deduplication     : PASS
+100% POS retry deduplication   : PASS
+Gold replenishment output      : VERIFIED
+============================================================
