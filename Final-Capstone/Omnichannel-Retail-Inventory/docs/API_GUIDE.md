@@ -147,6 +147,3 @@ FastAPI's interactive Swagger documentation can be used to inspect and test the 
 
 
 Endpoint names and request formats should be checked against the implemented FastAPI routes before the final demonstration.
-
-
-

@@ -159,6 +159,3 @@ Ensure the following services are operational:
 
 
 After resolving issues, confirm that the dashboard, inventory lookup, AI assistant, and backend APIs work as expected.
-
-
-

@@ -101,6 +101,3 @@ Show the following results:
 \- \[ ] AI assistant responds correctly.
 
 \- \[ ] Project documentation is updated.
-
-
-

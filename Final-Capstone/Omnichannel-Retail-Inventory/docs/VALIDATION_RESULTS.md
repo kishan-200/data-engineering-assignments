@@ -83,6 +83,3 @@ The reported validation results indicate that the platform meets its stated stre
 
 
 These results should be verified against actual test logs before final submission.
-
-
-
