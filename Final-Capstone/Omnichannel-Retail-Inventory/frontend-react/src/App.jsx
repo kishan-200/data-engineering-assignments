@@ -123,9 +123,9 @@ const suggestedQuestions = [
   "What is the stock of SKU03782 at store S163?",
   "What is the reorder point for SKU03782 at S163?",
   "Create a draft PO for 30 units of SKU03782 at S163.",
-  "Explain the end-to-end architecture.",
+  "Explain the end-to-end retail data architecture.",
   "Which ML model is used and why?",
-  "Give me the KPI summary.",
+  "Summarize the key project KPIs and validation results.",
 ];
 
 
