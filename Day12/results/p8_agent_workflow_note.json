@@ -1,0 +1,9 @@
+{
+  "agents": [
+    "Security Scanner",
+    "Remediation",
+    "QA Reviewer"
+  ],
+  "workflow": "controlled rule-based demonstration",
+  "qa": "Checks remediation suggestions are non-empty; does not prove patched code is secure."
+}

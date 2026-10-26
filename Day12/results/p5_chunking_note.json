@@ -1,0 +1,6 @@
+{
+  "fixed_chunk_count": 4,
+  "header_document_chunk_count": 4,
+  "comparison_file": "p5_chunking_retrieval_comparison.csv",
+  "limitation": "TF-IDF is a lexical baseline, not a dense clinical embedding/vector database."
+}

@@ -1,0 +1,27 @@
+{
+  "customer": "Customer X",
+  "portfolio": {
+    "balance": 125000.0,
+    "tax_rate": 0.22
+  },
+  "estimated_tax_amount": 27500.0,
+  "market_context": "Q3 outlook: analysts expect elevated volatility and advise scenario analysis rather than guaranteed returns.",
+  "trace": [
+    {
+      "tool": "sql_tool",
+      "input": "Customer X"
+    },
+    {
+      "tool": "market_rag_tool",
+      "input": "Q3 outlook"
+    },
+    {
+      "tool": "calculator_tool",
+      "input": {
+        "balance": 125000.0,
+        "tax_rate": 0.22
+      }
+    }
+  ],
+  "disclaimer": "Illustrative calculation only; not financial or tax advice."
+}

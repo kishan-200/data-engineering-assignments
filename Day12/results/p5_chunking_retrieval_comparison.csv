@@ -1,0 +1,9 @@
+strategy,query,rank,source,score,retrieved_text
+fixed-size-overlap,What checks are needed for medication safety?,1,guideline_b,0.1610426988439593,"Medication safety includes checking allergies, current medicines, contraindications, and dosage with a qualified clinician."
+fixed-size-overlap,What checks are needed for medication safety?,2,guideline_a,0.0,"Fever care includes recording temperature, hydration, duration, and symptoms. Breathing difficulty or confusion needs urgent assessment."
+fixed-size-overlap,What symptoms require urgent assessment?,1,guideline_a,0.24908174443058606,"Fever care includes recording temperature, hydration, duration, and symptoms. Breathing difficulty or confusion needs urgent assessment."
+fixed-size-overlap,What symptoms require urgent assessment?,2,guideline_c,0.07778435810965117,"Asthma guidance includes breathing assessment, prescribed inhaler plan, triggers, and severity."
+document/header-based,What checks are needed for medication safety?,1,guideline_b,0.1610426988439593,"Medication safety includes checking allergies, current medicines, contraindications, and dosage with a qualified clinician."
+document/header-based,What checks are needed for medication safety?,2,guideline_a,0.0,"Fever care includes recording temperature, hydration, duration, and symptoms. Breathing difficulty or confusion needs urgent assessment."
+document/header-based,What symptoms require urgent assessment?,1,guideline_a,0.24908174443058606,"Fever care includes recording temperature, hydration, duration, and symptoms. Breathing difficulty or confusion needs urgent assessment."
+document/header-based,What symptoms require urgent assessment?,2,guideline_c,0.07778435810965117,"Asthma guidance includes breathing assessment, prescribed inhaler plan, triggers, and severity."

@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "severity": "high",
+      "issue": "Potential SQL injection via string concatenation",
+      "line_hint": "query construction",
+      "fix": "Use parameterized SQL queries."
+    },
+    {
+      "severity": "high",
+      "issue": "Hardcoded secret",
+      "line_hint": "password assignment",
+      "fix": "Load secret from environment/secret manager; rotate exposed credentials."
+    }
+  ],
+  "remediation_suggestions": [
+    "Use parameterized SQL queries.",
+    "Load secret from environment/secret manager; rotate exposed credentials."
+  ],
+  "qa_validation_passed": true,
+  "trace": [
+    {
+      "agent": "Security Scanner",
+      "findings": [
+        {
+          "severity": "high",
+          "issue": "Potential SQL injection via string concatenation",
+          "line_hint": "query construction",
+          "fix": "Use parameterized SQL queries."
+        },
+        {
+          "severity": "high",
+          "issue": "Hardcoded secret",
+          "line_hint": "password assignment",
+          "fix": "Load secret from environment/secret manager; rotate exposed credentials."
+        }
+      ]
+    },
+    {
+      "agent": "Remediation",
+      "suggestions": [
+        "Use parameterized SQL queries.",
+        "Load secret from environment/secret manager; rotate exposed credentials."
+      ]
+    },
+    {
+      "agent": "QA Reviewer",
+      "validation_passed": true,
+      "checks": [
+        "one remediation per finding",
+        "non-empty remediation"
+      ]
+    }
+  ],
+  "note": "This is a rule-based demo, not a complete security scanner. Never execute untrusted patches automatically."
+}

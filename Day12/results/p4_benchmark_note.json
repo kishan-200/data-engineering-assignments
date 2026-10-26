@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "variant": "zero-shot-rule-baseline",
+      "accuracy": 1.0,
+      "avg_latency_ms": 0.006412000016098318,
+      "evaluation_type": "rule-based proxy; not an LLM prompt benchmark"
+    },
+    {
+      "variant": "few-shot-rule-baseline",
+      "accuracy": 1.0,
+      "avg_latency_ms": 0.008442200009994849,
+      "evaluation_type": "rule-based proxy; not an LLM prompt benchmark"
+    }
+  ],
+  "limitation": "True zero-shot/few-shot LLM benchmarking requires a configured model/API and labeled evaluation set."
+}

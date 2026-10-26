@@ -1,0 +1,60 @@
+{
+  "RUL_MAE": 12.033498955730632,
+  "RUL_RMSE": 14.655440459226268,
+  "failure_threshold_metrics": [
+    {
+      "threshold": 0.1,
+      "precision": 0.6404494382022472,
+      "recall": 1.0,
+      "predicted_failures": 89
+    },
+    {
+      "threshold": 0.2,
+      "precision": 0.7702702702702703,
+      "recall": 1.0,
+      "predicted_failures": 74
+    },
+    {
+      "threshold": 0.3,
+      "precision": 0.8260869565217391,
+      "recall": 1.0,
+      "predicted_failures": 69
+    },
+    {
+      "threshold": 0.4,
+      "precision": 0.8507462686567164,
+      "recall": 1.0,
+      "predicted_failures": 67
+    },
+    {
+      "threshold": 0.5,
+      "precision": 0.95,
+      "recall": 1.0,
+      "predicted_failures": 60
+    },
+    {
+      "threshold": 0.6,
+      "precision": 1.0,
+      "recall": 1.0,
+      "predicted_failures": 57
+    },
+    {
+      "threshold": 0.7,
+      "precision": 1.0,
+      "recall": 0.9122807017543859,
+      "predicted_failures": 52
+    },
+    {
+      "threshold": 0.8,
+      "precision": 1.0,
+      "recall": 0.8421052631578947,
+      "predicted_failures": 48
+    },
+    {
+      "threshold": 0.9,
+      "precision": 1.0,
+      "recall": 0.6491228070175439,
+      "predicted_failures": 37
+    }
+  ]
+}

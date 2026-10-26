@@ -1,0 +1,3 @@
+agent,severity,finding,remediation,qa_status
+Security Scanner,High,Potential SQL injection via string concatenation,Use parameterized SQL queries,Remediation suggestion present; patch not executed
+Security Scanner,High,Hardcoded secret,Move to environment/secret manager and rotate secret,Remediation suggestion present; patch not executed

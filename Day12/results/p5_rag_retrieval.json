@@ -1,0 +1,36 @@
+{
+  "chunk_count": 4,
+  "strategy": "fixed-size word chunks with overlap; TF-IDF retrieval baseline (not a clinical decision system)",
+  "queries": [
+    {
+      "query": "What should be checked for medication safety?",
+      "retrieved": [
+        {
+          "source": "guideline_b",
+          "text": "Medication safety requires checking allergies, current medicines, contraindications, and dosage instructions with a qualified clinician.",
+          "score": 0.1677483123354916
+        },
+        {
+          "source": "guideline_d",
+          "text": "Clinical protocols should be reviewed against current local policy and the treating clinician's judgment.",
+          "score": 0.16774831233549156
+        }
+      ]
+    },
+    {
+      "query": "Which symptoms may need urgent assessment?",
+      "retrieved": [
+        {
+          "source": "guideline_a",
+          "text": "For fever, record temperature, hydration status, duration, and associated symptoms. Seek urgent assessment for breathing difficulty or confusion.",
+          "score": 0.19877887594464913
+        },
+        {
+          "source": "guideline_c",
+          "text": "For asthma symptoms, assess breathing, prescribed inhaler plan, triggers, and severity. Emergency symptoms require immediate medical attention.",
+          "score": 0.10483238422003288
+        }
+      ]
+    }
+  ]
+}

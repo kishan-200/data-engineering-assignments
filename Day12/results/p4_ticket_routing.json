@@ -1,0 +1,47 @@
+{
+  "mode": "deterministic fallback; no external LLM/API required",
+  "average_latency_seconds": 6.811999992351048e-06,
+  "examples": [
+    {
+      "ticket": "Cannot access API; authentication returns 401",
+      "result": {
+        "category": "technical",
+        "priority": "medium",
+        "draft_response": "Thanks for contacting support. Your technical request has been recorded; our team will review it."
+      }
+    },
+    {
+      "ticket": "Please explain the invoice and refund my duplicate charge",
+      "result": {
+        "category": "billing",
+        "priority": "medium",
+        "draft_response": "Thanks for contacting support. Your billing request has been recorded; our team will review it."
+      }
+    },
+    {
+      "ticket": "Could you add a dark mode feature?",
+      "result": {
+        "category": "feature_request",
+        "priority": "low",
+        "draft_response": "Thanks for contacting support. Your feature request request has been recorded; our team will review it."
+      }
+    },
+    {
+      "ticket": "Our service is down and all users are affected",
+      "result": {
+        "category": "technical",
+        "priority": "high",
+        "draft_response": "Thanks for contacting support. Your technical request has been recorded; our team will review it."
+      }
+    },
+    {
+      "ticket": "How do I change my billing plan?",
+      "result": {
+        "category": "billing",
+        "priority": "medium",
+        "draft_response": "Thanks for contacting support. Your billing request has been recorded; our team will review it."
+      }
+    }
+  ],
+  "note": "For actual LLM benchmarking, configure an API provider and compare zero-shot/few-shot prompts."
+}

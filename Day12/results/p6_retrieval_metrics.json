@@ -1,0 +1,6 @@
+{
+  "queries": 3,
+  "precision_at_1": 1.0,
+  "recall_at_1": 1.0,
+  "note": "Small labeled toy corpus; lexical/vector-style TF-IDF fusion proxy, not a trained cross-encoder benchmark."
+}

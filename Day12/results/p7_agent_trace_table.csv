@@ -1,0 +1,6 @@
+step,agent,action,observation
+1,controller,Receive question,Compare Customer X portfolio with Q3 market outlook and estimate tax exposure
+2,SQL tool,Lookup customer portfolio,Balance and illustrative tax rate returned from in-memory sample database
+3,Market retrieval tool,Retrieve Q3 outlook,Retrieved sample outlook text
+4,Calculator tool,Calculate balance × illustrative tax rate,Estimated exposure calculated
+5,controller,Synthesize response,Final illustrative report assembled

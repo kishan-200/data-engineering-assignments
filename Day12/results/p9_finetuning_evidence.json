@@ -1,0 +1,10 @@
+{
+  "dataset": "data/claims_toy_train.jsonl",
+  "examples_prepared": 2,
+  "quantization": "4-bit QLoRA configuration scaffold",
+  "actual_training_run": false,
+  "training_loss_curve": "NOT AVAILABLE: training was not run",
+  "gpu_memory_comparison": "NOT AVAILABLE: training was not run",
+  "inference_latency_comparison": "NOT AVAILABLE: base and fine-tuned model inference were not run",
+  "how_to_complete": "Run a compatible QLoRA job on a supported GPU/model after installing transformers, datasets, peft, trl and bitsandbytes; then record real metrics."
+}

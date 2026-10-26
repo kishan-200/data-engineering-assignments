@@ -1,0 +1,7 @@
+metric,value,status
+Guardrail test cases,2,measured on toy test cases
+Prompt-injection test blocked,1,measured on toy rule-based guard
+RAGAS faithfulness,Not measured,Requires RAGAS evaluator and configured LLM
+Answer relevance,Not measured,Requires labeled/evaluated answers
+Context recall,Not measured,Requires reference contexts/answers
+Harm evaluation,Not measured,Requires defined safety evaluation set

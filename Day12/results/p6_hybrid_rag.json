@@ -1,0 +1,40 @@
+{
+  "query": "What does section 4.2 say about termination notice?",
+  "hybrid_method": "TF-IDF dense-style similarity + token overlap, fused with Reciprocal Rank Fusion",
+  "results": [
+    {
+      "id": "contract_01",
+      "text": "Section 4.2: Either party may terminate this agreement with thirty days written notice, except for material breach.",
+      "dense_score": 0.04715947962141334,
+      "lexical_score": 4,
+      "rrf_score": 0.03278688524590164,
+      "reranked_position": 1
+    },
+    {
+      "id": "contract_02",
+      "text": "Section 7.1: Confidential information must not be disclosed to third parties without prior written consent.",
+      "dense_score": 0.013129198533844717,
+      "lexical_score": 1,
+      "rrf_score": 0.03200204813108039,
+      "reranked_position": 2
+    },
+    {
+      "id": "contract_04",
+      "text": "Section 12.2: Disputes shall first be referred to mediation before formal litigation, subject to applicable law.",
+      "dense_score": 0.012001801272504409,
+      "lexical_score": 2,
+      "rrf_score": 0.031754032258064516,
+      "reranked_position": 4
+    },
+    {
+      "id": "contract_03",
+      "text": "Section 9.3: The supplier shall indemnify the customer for direct losses arising from proven negligence.",
+      "dense_score": 0.012556542055356848,
+      "lexical_score": 1,
+      "rrf_score": 0.03149801587301587,
+      "reranked_position": 3
+    }
+  ],
+  "answer": "Section 4.2 allows termination with thirty days' written notice, except for material breach.",
+  "note": "Educational retrieval baseline; production deployment should use a trained cross-encoder reranker and source-verified citations."
+}

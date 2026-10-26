@@ -1,0 +1,16 @@
+{
+  "comparison": [
+    {
+      "model": "MLP",
+      "MAE": 5.3569128298484525,
+      "RMSE": 6.643137540312996
+    },
+    {
+      "model": "Random Forest baseline",
+      "MAE": 4.062892910975262,
+      "RMSE": 5.142905362339545
+    }
+  ],
+  "mlp_iterations": 151,
+  "early_stopping_validation_scores_available": true
+}

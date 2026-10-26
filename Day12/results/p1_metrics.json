@@ -1,0 +1,6 @@
+{
+  "rul_MAE": 10.905413666073827,
+  "rul_RMSE": 13.972581193481517,
+  "failure_recall_at_threshold_0.4": 1.0,
+  "threshold": 0.4
+}

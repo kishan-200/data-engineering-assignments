@@ -1,0 +1,13 @@
+query,document_id,hybrid_rrf_score,reranked_rank,relevant
+What is the notice period in clause 4.2?,c1,0.03278688524590164,1,True
+What is the notice period in clause 4.2?,c2,0.03225806451612903,2,False
+What is the notice period in clause 4.2?,c3,0.03149801587301587,3,False
+What is the notice period in clause 4.2?,c4,0.03149801587301587,4,False
+Which clause discusses confidentiality?,c2,0.03278688524590164,1,True
+Which clause discusses confidentiality?,c1,0.03225806451612903,2,False
+Which clause discusses confidentiality?,c3,0.031746031746031744,3,False
+Which clause discusses confidentiality?,c4,0.03125,4,False
+Who indemnifies the customer for negligence?,c3,0.03278688524590164,1,True
+Who indemnifies the customer for negligence?,c1,0.03225806451612903,2,False
+Who indemnifies the customer for negligence?,c2,0.031746031746031744,3,False
+Who indemnifies the customer for negligence?,c4,0.03125,4,False

@@ -1,0 +1,27 @@
+{
+  "training_examples_created": 2,
+  "dataset_path": "data/claims_toy_train.jsonl",
+  "qlora_config": {
+    "load_in_4bit": true,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "epochs": 1,
+    "max_seq_length": 512
+  },
+  "status": "Preparation/configuration scaffold completed; actual model fine-tuning NOT run by this lightweight script.",
+  "requirements_for_real_run": [
+    "CUDA GPU with sufficient memory",
+    "approved accessible base model and license",
+    "transformers, datasets, peft, trl, bitsandbytes (CUDA/Linux compatibility)"
+  ],
+  "evaluation_plan": [
+    "training loss curve",
+    "held-out claim classification/summary quality",
+    "inference latency",
+    "GPU memory comparison"
+  ]
+}

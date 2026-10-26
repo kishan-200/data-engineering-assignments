@@ -1,0 +1,10 @@
+{
+  "decision_tree_roc_auc": 0.6008247669136983,
+  "random_forest_roc_auc": 0.6594549366483384,
+  "kmeans_silhouette_sample": 0.22198518042447368,
+  "cluster_sizes": {
+    "0": 432,
+    "1": 61,
+    "2": 407
+  }
+}
